@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  /* align-items: center; */
+}
+.lis{
+  display: flex;
+  justify-content: center;
+}
+.btn_delete {
+  width: 100px;
+
+  margin: 10px 0;
+  background-color: rgb(34, 8, 204);
+  border: solid 1px black;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.btn_delete:hover,
+.btn_delete:focus {
+  cursor: pointer;
+  background-color: rgb(148, 110, 7);
+}
